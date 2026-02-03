@@ -15,6 +15,7 @@ function delay(ms, value, callback) {
     callback(error)
   })
   return promise;
+  
 }
 
 module.exports = delay;
